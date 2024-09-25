@@ -1,0 +1,5 @@
+﻿  Menus.cpp
+C:\Dev\ToDoListV2\Menus.cpp(41,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  SaveLoadSystem.cpp
+  Generating Code...
+  ToDoListV2.vcxproj -> C:\Dev\ToDoListV2\x64\Debug\ToDoListV2.exe
