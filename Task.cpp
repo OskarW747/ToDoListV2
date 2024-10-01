@@ -9,6 +9,7 @@ Task::Task() {
 	this->id = NULL;
 	this->title = "";
 	this->description = "";
+	std::cout << "Task default constructor:\t" << this->id << std::endl;
 }
 
 Task::Task(bool exists, int id, std::string title, std::string description) {
@@ -53,7 +54,7 @@ void Task::_load() {
 }
 
 Task::~Task() {
-	this->_save();
+	//this->_save();
 }
 
 void Task::display() {

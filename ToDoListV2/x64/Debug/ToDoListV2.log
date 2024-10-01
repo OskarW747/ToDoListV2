@@ -1,5 +1,3 @@
-﻿  Menus.cpp
-C:\Dev\ToDoListV2\Menus.cpp(41,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  SaveLoadSystem.cpp
-  Generating Code...
+﻿  SaveLoadSystem.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
   ToDoListV2.vcxproj -> C:\Dev\ToDoListV2\x64\Debug\ToDoListV2.exe

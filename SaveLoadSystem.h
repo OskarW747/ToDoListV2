@@ -1,5 +1,7 @@
 #pragma once
 #include <iostream>
+#include <vector>
+#include "Task.h"
 
 /* 
  *
@@ -11,9 +13,9 @@ class SaveLoadSystem {
 
 public:
 
-	void save();
+	void save(std::vector<Task> tasks);
 
-	void load(); 
+	//vector<Task> load(); 
 
 private:
 

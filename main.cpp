@@ -7,6 +7,7 @@
 #include "Definitions.h"
 #include "Menus.h"
 #include "Task.h"
+#include "SaveLoadSystem.h"
 
 using namespace std;
 
@@ -17,11 +18,12 @@ MainMenu mainMenu;
 AddTaskTitleMenu addTaskTitleMenu;
 AddTaskDescriptionMenu addTaskDescriptionMenu;
 TaskList taskList;
+SaveLoadSystem saveLoadSystem;
 
 vector<Task> Tasks;
 
 void initialize() {
-
+	
 }
 
 void printMenu(Menu* _menu) {
@@ -67,6 +69,7 @@ int getIntInput(const std::vector<int> _validInputs) {
 	}
 
 }
+
 
 /*
 * A function for generating random numbers
@@ -159,6 +162,9 @@ int main() {
 		}
 
 	}
+
+	saveLoadSystem.save(Tasks);
+
 	return 0;
 
 
