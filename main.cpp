@@ -4,6 +4,9 @@
 #include <vector>
 #include <cstdlib>
 #include <ctime>
+#include <fstream>
+#include <filesystem>
+
 #include "Definitions.h"
 #include "Menus.h"
 #include "Task.h"
@@ -23,7 +26,49 @@ SaveLoadSystem saveLoadSystem;
 vector<Task> Tasks;
 
 void initialize() {
-	
+	int tempId;
+	std::string tempTitle; 
+	std::string tempDescription;
+
+	std::ifstream saveFile("tasks.txt");
+	if (saveFile.is_open() == false) {
+		std::cout << "Unable to open file" << std::endl;
+		return;
+	}
+
+	std::string tempLine;
+
+	while (getline(saveFile, tempLine)) {
+		std::cout << tempLine << std::endl;
+		std::cout << tempLine[0] << std::endl;
+
+
+		// Check first character to determine which type
+		if (tempLine[0] == 'i') {
+			tempLine.erase(0, 1);
+			tempId = std::stoi(tempLine);
+			
+		}
+		else if (tempLine[0] == 't') {
+			tempLine.erase(0, 1);
+			tempTitle = tempLine;
+		}
+		else if (tempLine[0] == 'd') {
+			tempLine.erase(0, 1); 
+			tempDescription = tempLine;
+
+			//Check if last tempId is erased to know if new task should be created 
+			if (tempId != 0) {
+				Task tempTask(false, tempId, tempTitle, tempDescription);
+				Tasks.push_back(tempTask);
+
+				tempId = 0;
+				tempTitle = "";
+				tempDescription = "";
+			}
+		}
+	}
+
 }
 
 void printMenu(Menu* _menu) {
@@ -132,9 +177,11 @@ void menuController() {
 
 		printMenu(&taskList);
 
-
-		for (int i = 0; i < Tasks.size(); i++) {
-			Tasks[i].display();
+		if (Tasks.empty() == false) {
+			Tasks[0].display();
+		}
+		else {
+			std::cout << "No tasks available" << std::endl;
 		}
 
 		break;
@@ -145,9 +192,11 @@ void menuController() {
 int main() {
 	cout << "Hello World" << std::endl;
 
-	srand(time(0));
+	//srand(time(0));
 
 	static int lastMenuIndex = 0;
+
+	initialize();
 
 	//printMenu(&mainMenu);
 

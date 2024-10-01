@@ -12,7 +12,7 @@ void SaveLoadSystem::save(std::vector<Task> tasks) {
 	saveFile.open("tasks.txt");
 	
 	for (int i = 0; i < tasks.size(); i++) {
-		saveFile << tasks[i].id << "\n" << tasks[i].title << "\n" << tasks[i].description << "\n";
+		saveFile << "i" << tasks[i].id << "\n" << "t" << tasks[i].title << "\n" << "d" << tasks[i].description << "\n";
 	}
 	saveFile.close();
 
