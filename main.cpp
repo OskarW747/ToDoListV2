@@ -184,6 +184,13 @@ void menuController() {
 			std::cout << "No tasks available" << std::endl;
 		}
 
+		std::cout << "Press " << std::endl;
+
+		std::string input;
+		getline(cin, input);
+
+		
+
 		break;
 	}
 	}

@@ -3,42 +3,42 @@
   "WorkspaceRootPath": "C:\\Dev\\ToDoListV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\ToDoListV2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|C:\\Dev\\ToDoListV2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|C:\\Dev\\ToDoListV2\\Task.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|solutionrelative:Task.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|C:\\Dev\\ToDoListV2\\SaveLoadSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|solutionrelative:SaveLoadSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|C:\\Dev\\ToDoListV2\\definitions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|solutionrelative:definitions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\filesystem||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\ToDoListV2\\SaveLoadSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SaveLoadSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\ToDoListV2\\Task.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Task.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\ToDoListV2\\SaveLoadSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SaveLoadSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|C:\\Dev\\ToDoListV2\\SaveLoadSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|solutionrelative:SaveLoadSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\ToDoListV2\\Task.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Task.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|C:\\Dev\\ToDoListV2\\Menus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|solutionrelative:Menus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\ToDoListV2\\Menus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Menus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|C:\\Dev\\ToDoListV2\\Task.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|solutionrelative:Task.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\ToDoListV2\\definitions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:definitions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Dev\\ToDoListV2\\Menus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Menus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|C:\\Dev\\ToDoListV2\\Menus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E058BD31-62E7-4D49-8BB9-37F170150EE7}|ToDoListV2.vcxproj|solutionrelative:Menus.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,7 +52,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "vector",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector",
@@ -60,12 +60,11 @@
               "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector",
               "ViewState": "AQIAAFAHAAAAAAAAAAAtwGQHAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-01T22:54:45.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T22:54:45.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "filesystem",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\filesystem",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\filesystem",
@@ -73,12 +72,11 @@
               "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\filesystem",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-01T22:39:41.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T22:39:41.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Task.h",
               "DocumentMoniker": "C:\\Dev\\ToDoListV2\\Task.h",
               "RelativeDocumentMoniker": "Task.h",
@@ -110,14 +108,14 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Dev\\ToDoListV2\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAALEAAAAAAAAAAAAQwM0AAAADAAAA",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAALoAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-24T21:58:30.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SaveLoadSystem.h",
               "DocumentMoniker": "C:\\Dev\\ToDoListV2\\SaveLoadSystem.h",
               "RelativeDocumentMoniker": "SaveLoadSystem.h",
@@ -125,8 +123,7 @@
               "RelativeToolTip": "SaveLoadSystem.h",
               "ViewState": "AQIAAAkAAAAAAAAAAAAIwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-24T23:09:13.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T23:09:13.888Z"
             },
             {
               "$type": "Document",
@@ -138,12 +135,11 @@
               "RelativeToolTip": "Menus.cpp",
               "ViewState": "AQIAAC4AAAAAAAAAAAAwwEwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-24T22:10:02.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T22:10:02.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Task.cpp",
               "DocumentMoniker": "C:\\Dev\\ToDoListV2\\Task.cpp",
               "RelativeDocumentMoniker": "Task.cpp",
@@ -151,20 +147,20 @@
               "RelativeToolTip": "Task.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-24T22:04:31.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T22:04:31.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "definitions.h",
               "DocumentMoniker": "C:\\Dev\\ToDoListV2\\definitions.h",
               "RelativeDocumentMoniker": "definitions.h",
               "ToolTip": "C:\\Dev\\ToDoListV2\\definitions.h",
               "RelativeToolTip": "definitions.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-24T22:09:29.169Z"
+              "WhenOpened": "2024-09-24T22:09:29.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
