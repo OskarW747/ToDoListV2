@@ -25,6 +25,8 @@ SaveLoadSystem saveLoadSystem;
 
 vector<Task> Tasks;
 
+bool clearScr = true; // Clears screen before printing
+
 void initialize() {
 	int tempId;
 	std::string tempTitle; 
@@ -72,6 +74,11 @@ void initialize() {
 }
 
 void printMenu(Menu* _menu) {
+	if (clearScr == true) {
+		system("cls");
+
+	}
+
 	_menu->displayMenu();
 }
 
@@ -184,10 +191,14 @@ void menuController() {
 			std::cout << "No tasks available" << std::endl;
 		}
 
-		std::cout << "Press " << std::endl;
+		std::cout << "Type back to go back" << std::endl;
 
 		std::string input;
 		getline(cin, input);
+
+		if (input == "back") {
+			menuIndex = MAIN_MENU_INDEX;
+		}
 
 		
 
