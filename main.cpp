@@ -25,7 +25,7 @@ SaveLoadSystem saveLoadSystem;
 
 vector<Task> Tasks;
 
-bool clearScr = true; // Clears screen before printing
+bool clearScr = false; // Clears screen before printing
 
 void initialize() {
 	int tempId;
@@ -70,6 +70,8 @@ void initialize() {
 			}
 		}
 	}
+
+	std::cout << "Size of tasks vector: " << Tasks.size() << std::endl;
 
 }
 
@@ -185,7 +187,9 @@ void menuController() {
 		printMenu(&taskList);
 
 		if (Tasks.empty() == false) {
-			Tasks[0].display();
+			for (int i = 1; i <= Tasks.size(); i++) {
+				Tasks[i].display();
+			}
 		}
 		else {
 			std::cout << "No tasks available" << std::endl;
