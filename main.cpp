@@ -25,7 +25,7 @@ SaveLoadSystem saveLoadSystem;
 
 vector<Task> Tasks;
 
-bool clearScr = false; // Clears screen before printing
+bool clearScr = true; // Clears screen before printing
 
 void initialize() {
 	int tempId;
@@ -187,7 +187,7 @@ void menuController() {
 		printMenu(&taskList);
 
 		if (Tasks.empty() == false) {
-			for (int i = 1; i <= Tasks.size(); i++) {
+			for (int i = 0; i < Tasks.size(); i++) {
 				Tasks[i].display();
 			}
 		}
